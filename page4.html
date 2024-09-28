@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Таблицы в HTML5</title>
+        <style>
+            td{
+                width: 360px; 
+                height:360px; 
+                font-size: x-large;
+                border: solid 1px silver; 
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption><b><big>Популярные процессоры Xeon</big></b></caption>
+            <thead>
+                <tr>
+                    <th>Модель</th> <th>Версия</th> <th>Количество ядер</th> <th>Цена (р)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>E5-2690</td> <td>v3</td> <td>12</td> <td>2000</td>
+                </tr>
+                <tr>
+                    <td>E5-2666</td> <td>v3</td> <td>10</td> <td>1500</td>
+                </tr>
+                <tr>
+                    <td>E5-2680</td> <td>v4</td> <td>14</td> <td>3000</td>
+                </tr>
+                <tr>
+                    <td>E5-2690</td> <td>v4</td> <td>14</td> <td>5200</td>
+                </tr>
+                <tr>
+                    <td>E5-2678</td> <td>v3</td> <td>12</td> <td>2800</td>
+                </tr>
+                <tr>
+                    <td>E5-2696</td> <td>v3</td> <td>18</td> <td>7700</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="4"><big>Информация по состоянию на 6 сентября</big></th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <br>
+        <br>
+        <br>
+
+        <table>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td colspan="5" style="background-color:black;">1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td style="background-color:black;">2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td style="background-color:black;">2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="5" style="background-color:black;">3</td>
+                <td>3</td>
+                <td>3</td>
+                <td rowspan="2" style="background-color:black;">3</td>
+                <td>3</td>
+                <td rowspan="2" style="background-color:black;">3</td>
+                <td>3</td>
+                <td>3</td>
+                <td rowspan="5" style="background-color:black;">3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+            </tr>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td style="background-color:black;">6</td>
+                <td>6</td>
+                <td>6</td>
+                <td>6</td>
+                <td style="background-color:black;">6</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>7</td>
+                <td colspan="3" style="background-color:black;">7</td>
+                <td>7</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td style="background-color:black;">8</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+                <td style="background-color:black;">8</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>9</td>
+                <td colspan="5" style="background-color:black;">9</td>
+                <td>9</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </body>
+</html>
