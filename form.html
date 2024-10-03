@@ -5,6 +5,8 @@
         <title>Формы в HTML5</title>
     </head>
     <body>
+        <iframe src="menu.html" width="100%" height="120px" frameborder="0"></iframe>
+
         <h2>Вход на сайт</h2>
         <form>
             <fieldset>
@@ -17,6 +19,24 @@
                     <option value="Arthas">
                     <option value="Kira">
                 </datalist>
+
+                <label for="radio">Переключатель: </label><br>
+                <input type="radio" id="radio" name="radio" /><br>
+                <input type="radio" id="radio" name="radio" /><br>
+                <input type="radio" id="radio" name="radio" /><br>
+
+                <label for="checkbox">Флажок: </label><br>
+                <input type="checkbox" id="checkbox" name="checkbox" /><br>
+                <input type="checkbox" id="checkbox" name="checkbox" /><br>
+
+                <label for="datetime-local">Ввод даты и времени: </label><br>
+                <input type="datetime-local" required id="datetime-local" name="datetime-local" /><br>
+
+                <label for="range">Диапазон: </label><br>
+                <input type="range" id="range" name="range" /><br>
+
+                <label for="url">URL: </label><br>
+                <input type="url" placeholder="https://www.omgtu.ru/" id="url" name="url" /><br>
 
                 <label for="password">Пароль: </label><br>
                 <input type="password" required id="password" name="password" /><br>
